@@ -1,0 +1,15 @@
+name: SchematicLoader
+main: SchematicLoader\Main
+version: 1.0.0
+api: [3.0.0-ALPHA10]
+author: wakame0731
+website: https://wakame.space/
+commands:
+  build:
+    description: "schematicデータをロードし、設置します。"
+    usage: "/build <string FileName> <int x> <int y> <int z>"
+    permission: SchematicLoader
+permissions:
+  SchematicLoader:
+    default: op
+    description: "コマンド使える人"
